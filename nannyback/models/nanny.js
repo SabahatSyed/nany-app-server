@@ -1,0 +1,25 @@
+class Nanny{
+    constructor(id,availability,children,dob,earnings,education,email,experience,fullname,gallery,gender,image,mobile,nic,password,price,special,transactionHistory,type,username){
+        this.id=id
+        this.availability=availability;
+        this.children=children;
+        this.dob=dob;
+        this.earnings=earnings;
+        this.education=education;
+        this.experience=experience;
+        this.fullname=fullname;
+        this.gallery=gallery;
+        this.image=image;
+        this.mobile=mobile;
+        this.nic=nic;
+        this.password=password;
+        this.price=price;
+        this.special=special;
+        this.transactionHistory=transactionHistory;
+        this.type=type;
+        this.username=username;
+        this.email=email;
+        this.gender=gender;
+    }
+}
+module.exports=Nanny;
